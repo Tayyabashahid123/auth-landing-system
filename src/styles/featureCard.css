@@ -1,0 +1,32 @@
+.feature-card{
+    margin-top: 30px;
+    margin-bottom:30px;
+    padding: 15px;
+    font-family: 'Nunito', sans-serif;
+    /* /* background-color: white; */
+    /* background-color: #00ccbc;  */
+    color: #292a2a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    border: 10px solid #00ccbc;
+
+}
+
+.feature-detail{
+    margin-top: 0.3rem;  
+    margin-bottom: 1rem;  
+    text-align: center;
+    padding: 15px;
+}
+
+.feature-name{
+    margin-top: 0.3rem;  
+    margin-bottom: 0.5rem;  
+}
+
+.feature-img{
+    margin-top: 1rem;  
+    margin-bottom: 0.5rem;  
+}
