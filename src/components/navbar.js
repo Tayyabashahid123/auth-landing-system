@@ -1,4 +1,3 @@
-import React from "react";
 import TaskManager from "../assets/task_manager.png";
 import Logo from "../assets/logo.png";
 import "../styles/navbar.css";

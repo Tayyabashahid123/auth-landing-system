@@ -12,13 +12,15 @@ export default function Landing(){
     return (
         <>
            <Navbar/>
+
+           <h2 className="Heading"> Features</h2>
+
+
            <div className="feature-grid">
                 <FeatureCard  name="Intuitive Dashboard" detail=" Manage your projects with ease using a clean drag-and-drop interface designed for speed and simplicity."  img={Dashboard}/>
                 <FeatureCard  name="Real-Time Notifications" detail=" Get real-time alerts on task updates and deadlines, optimized for both desktop and mobile devices."  img={Notifications}/>
                 <FeatureCard  name="Secure Collaboration" detail="Work together securely — share tasks, track progress, and protect your data with built-in verification."  img={collabrationTool}/>
             </div>
-
-            <h2 className="Heading"> Features</h2>
 
             <div className="feature-grid">
                 <FeatureCard  name="Organize Tasks" detail=" Drag and Drop tasks between boards"  img={organization}/>
