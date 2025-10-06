@@ -1,4 +1,4 @@
-# Auth Landing System 🚀
+# Aperture Flow 🚀
 
 [![Netlify Status](https://img.shields.io/netlify/your-netlify-site-id)](https://auth-landing-system.netlify.app/)  
 [![React](https://img.shields.io/badge/React-17.0.2-blue)](https://reactjs.org/)  
@@ -10,9 +10,7 @@
 
 ## **Project Overview**
 
-**Auth Landing System** is a modern, responsive web application built with **React.js**. It provides user authentication features including signup, login, and contact functionality, along with a clean landing page to showcase the platform.  
-
-The app includes a fully functional **Dashboard** after login, showing personalized user information, tasks, messages, and recent activity.
+A modern, full-stack application built with React.js that provides a secure, seamless user experience. It features comprehensive Signup and Login authentication and a clean, responsive landing page. Post-authentication, users access a fully functional Dashboard for managing personalized tasks, messages, and recent activity.
 
 ---
 
@@ -47,8 +45,7 @@ The app includes a fully functional **Dashboard** after login, showing personali
 - Redirects to a Thank You page upon successful submission  
 
 ### **Footer**
-- Fixed footer on short pages (Signup, Login, Contact)  
-- Normal footer on long pages (Landing, Dashboard)  
+- footer added on Landing, Dashboard
 
 ---
 
