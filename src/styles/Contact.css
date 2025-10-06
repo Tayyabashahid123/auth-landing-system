@@ -1,0 +1,137 @@
+.contact-page {
+  height: 100vh;  
+  width: 100vw;   
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #e0f7f6, #ffffff);
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.Contact {
+  background-color: #ffffff;
+  text-align: center;
+  border-radius: 20px;
+  padding: 50px;
+  width: 350px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+
+.Contact input {
+  display: block;
+  width: 90%;
+  margin: 15px auto;
+  border: none;
+  border-radius: 12px;
+  padding: 12px;
+  background-color: #f5f7f8;
+  font-size: 15px;
+  transition: 0.2s;
+}
+
+.Contact input:focus {
+  background-color: #eefdfd;
+  outline: 2px solid #00d0d1;
+}
+
+
+.ContactBtn{
+  border: none;
+  border-radius: 12px;
+  padding: 12px;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: #00d0d1;
+  color: white;
+  cursor: pointer;
+  width: 90%;
+  margin-top: 15px;
+  transition: background 0.3s ease;
+  margin-bottom: 15px;
+}
+
+
+.ContactButton:hover {
+  background-color: #00b5b6;
+}
+
+.Contact h2 {
+  color: #222;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.Contact span {
+  color: #555;
+  font-size: 0.95rem;
+}
+
+.Contact a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.Contact a:hover {
+  text-decoration: underline;
+}
+
+
+.contact-textarea {
+  width: 90%;
+  margin: 15px auto;
+  display: block;
+  border: none;
+  border-radius: 12px;
+  padding: 12px;
+  background-color: #f5f7f8;
+  font-size: 15px;
+  height: 100px;
+  resize: none;
+  transition: 0.2s;
+}
+
+.contact-textarea:focus {
+  background-color: #eefdfd;
+  outline: 2px solid #00d0d1;
+}
+
+.error {
+  color: #e63946;
+  font-size: 0.85rem;
+  margin-top: -10px;
+  margin-bottom: 10px;
+  text-align: left;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.success {
+  color: #00b5b6;
+  font-weight: 500;
+  font-size: 0.9rem;
+  margin-top: 10px;
+}
+
+.contactButtonLink {
+  display: inline-block;
+  background-color: #00d0d1;
+  color: white;
+  padding: 12px 40px;
+  border-radius: 12px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: background 0.3s ease;
+
+}
+
+.contactButtonLink:hover {
+  background-color: #00b5b6;
+  text-decoration: none;
+  color: white;
+}
+
+

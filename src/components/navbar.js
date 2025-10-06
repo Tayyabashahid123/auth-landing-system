@@ -1,6 +1,7 @@
 import TaskManager from "../assets/task_manager.png";
 import Logo from "../assets/logo.png";
 import "../styles/navbar.css";
+import { Link } from "react-router-dom";
 
 export default function Navbar() {
   return (
@@ -9,8 +10,18 @@ export default function Navbar() {
       <header className="header">
         <img className="logo" src={Logo} alt="Logo" />
         <div className="header-btns">
-          <button className="login-btn">Login</button>
-          <button className="nav-btn">Get Started Free</button>
+
+          <Link to="/Login">
+            <button className="login-btn">Login</button>
+          </Link>
+
+          <Link to="/SignUp">
+            <button className="nav-btn">Sign Up</button>
+          </Link>
+
+            <Link to="/contact"><button className="login-btn">Contact</button></Link>
+
+
         </div>
       </header>
 
@@ -25,7 +36,10 @@ export default function Navbar() {
             </span>
             <br />
             <br />
-            <button className="nav-btn">Get Started Free</button>
+            <Link to="/SignUp">
+              <button className="nav-btn">Get Started For Free</button>
+            </Link>
+
           </div>
         </div>
 

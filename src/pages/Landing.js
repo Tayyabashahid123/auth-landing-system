@@ -1,5 +1,6 @@
 import FeatureCard from "../components/FeatureCard"
 import Navbar from "../components/navbar"
+import Footer from "../components/Footer"
 import "../styles/Landing.css"                                                                                                              
 import Dashboard from "../assets/dashboard.png"
 import Notifications from "../assets/notification.png"
@@ -7,6 +8,8 @@ import collabrationTool from "../assets/collabration_tool.png"
 import organization from "../assets/organization.png"
 import mobile from "../assets/mobile.png"
 import lock from "../assets/lock.png"
+import { Link } from "react-router-dom";
+
 
 export default function Landing(){
     return (
@@ -14,7 +17,6 @@ export default function Landing(){
            <Navbar/>
 
            <h2 className="Heading"> Features</h2>
-
 
            <div className="feature-grid">
                 <FeatureCard  name="Intuitive Dashboard" detail=" Manage your projects with ease using a clean drag-and-drop interface designed for speed and simplicity."  img={Dashboard}/>
@@ -30,8 +32,13 @@ export default function Landing(){
 
             <div className="Signup-Section">
                 <h2 className="Heading"> Sign Up Today and Boost your Productivity</h2>
-                <button className="nav-btn">Get Started Free</button>
+                <Link to="/SignUp">
+                    <button className="nav-btn">Get Started For Free</button>
+                </Link>
+
             </div>
+
+            <Footer  />
 
         </>
     )

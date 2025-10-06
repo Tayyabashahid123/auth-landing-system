@@ -2,15 +2,18 @@ body {
     /* background-color: #00ccbc; */
     padding-left: 50px;
     padding-right:50px;
+
+
 }
 
 .header{
     background-color: white;
+
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 30px;
-    padding: 15px 30px;
+    padding-right: 17px;
 
 }
 
@@ -30,9 +33,11 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: center;   /* vertically centers content */
+  align-items: center;  
   
-  background-color: white;
+  /* background-color: white; */
+  background: linear-gradient(135deg, #e0f7f6, #ffffff);
+
   font-family: 'Nunito', sans-serif;
   color: #292a2a;
   font-size: larger;
