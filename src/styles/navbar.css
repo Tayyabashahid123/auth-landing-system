@@ -1,6 +1,7 @@
 body {
     /* background-color: #00ccbc; */
-    padding: 50px;
+    padding-left: 50px;
+    padding-right:50px;
 }
 
 .header{
@@ -86,7 +87,9 @@ body {
     height: 60%;
     align-self: center;
 
-    margin-left: auto;
+    margin-left: 30px;
+    padding-left: 30px;
+    padding-bottom: 20px;
 }
 
 h1{
