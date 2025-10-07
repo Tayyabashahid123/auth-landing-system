@@ -4,7 +4,7 @@ export default function FeatureCard(props){
     return (
         <>
             <div className="feature-card"> 
-                <img className="feature-img" src={props.img} alt="Feature"/>
+                <img className="feature-img" src={props.img} />
                 <h4 className="feature-name"> {props.name}</h4>
                 <p className="feature-detail"> {props.detail}</p>
             </div>

@@ -42,9 +42,8 @@ body {
   color: #292a2a;
   font-size: larger;
 
-  /* border: 10px solid #00ccbc;   thinner border */
-  padding: 10px 20px;          /* reduce padding */
-  height: auto;                /* let content define height */
+  padding: 10px 20px;         
+  height: auto;             
 }
 
 

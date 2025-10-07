@@ -1,9 +1,21 @@
-/* Footer.css */
 .footer {
+    position: relative; 
+    
+    background-color: #f7f7f7; 
+    
+    /* background-color: #00a89c; */
+
     width: 100%;
-    padding: 15px 0;
+    padding: 30px 0; 
     text-align: center;
-    background: linear-gradient(135deg, #e0f7f6, #ffffff);
-    color: #555;
-    font-size: 14px;
+    
+    color: #444; 
+    font-size: 0.9rem; 
+    
+    border-top: 1px solid #eee;
+}
+
+.footer p {
+    margin: 0; 
+    font-family: 'Nunito', sans-serif; 
 }
