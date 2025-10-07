@@ -4,7 +4,7 @@
 [![React](https://img.shields.io/badge/React-17.0.2-blue)](https://reactjs.org/)  
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
-[Live Demo on Netlify]([https://apertureflow.netlify.app/])
+[Live Demo on Netlify](https://apertureflow.netlify.app/)
 
 ---
 
