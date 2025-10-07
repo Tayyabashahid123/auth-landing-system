@@ -1,6 +1,6 @@
 import "../styles/Dashboard.css";
-import Navbar from "../components/Navbar"
-
+import Navbar from "../components/navbar"
+import Footer from "../components/Footer"
 
 export default function Dashboard() {
   const userName = "Tayyaba";
@@ -44,8 +44,8 @@ export default function Dashboard() {
             <li>Task 4 Completed</li>
           </ul>
         </div>
-        
       </div>
+
     </>
   )
 }
