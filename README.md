@@ -1,6 +1,6 @@
 # Aperture Flow 🚀
 
-[![Netlify Status](https://img.shields.io/netlify/your-netlify-site-id)](https://auth-landing-system.netlify.app/)  
+[![Netlify Status](https://img.shields.io/netlify/your-netlify-site-id)](https://apertureflow.netlify.app/)  
 [![React](https://img.shields.io/badge/React-17.0.2-blue)](https://reactjs.org/)  
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
